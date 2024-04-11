@@ -3,6 +3,7 @@ const conn = require("../services/db");
 
 let Autorization = process.env.AUTORIZATION;
 
+console.log(Autorization);
 
 const listar_clie_sql =
 "SELECT " +
